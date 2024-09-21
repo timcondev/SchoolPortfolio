@@ -1,3 +1,10 @@
+/*
+Home Component
+Tim Conway
+301495941
+September 21st, 2024
+ */
+
 export default function Home() {
   return (
     <>

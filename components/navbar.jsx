@@ -1,10 +1,17 @@
+/*
+Navbar Component
+Tim Conway
+301495941
+September 21st, 2024
+ */
+
 import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="NavBar">
       <div>
         <h1>Tim&apos;s Portfolio</h1>
-        {/* <img src="public/logo.png" height={50} width={50} /> */}
+        <img src="public/logo.png" height={50} width={50} />
       </div>
       <div>
         <nav>
@@ -14,7 +21,6 @@ export default function NavBar() {
         </nav>
       </div>
       <br />
-      {/* <hr /> */}
     </div>
   );
 }

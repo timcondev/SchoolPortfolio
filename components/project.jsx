@@ -1,3 +1,10 @@
+/*
+Project Component
+Tim Conway
+301495941
+September 21st, 2024
+ */
+
 export default function Project() {
   return (
     <>
@@ -11,7 +18,7 @@ export default function Project() {
         <img src="/jerseyduel.png" width={400} />
       </div>
       <div>
-        <h3>Brainiac</h3>
+        <h3>Brainiac!</h3>
         <p>
           AI Enhanced notes. Create AI assist notes, then have it create a
           thumbnail to help quickly locate it!

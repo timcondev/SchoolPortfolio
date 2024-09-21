@@ -1,3 +1,10 @@
+/*
+Contact Component
+Tim Conway
+301495941
+September 21st, 2024
+ */
+
 export default function Contact() {
   const handleSubmit = (event) => {
     event.preventDefault();

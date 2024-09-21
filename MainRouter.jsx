@@ -1,3 +1,10 @@
+/*
+Main Pages Router
+Tim Conway
+301495941
+September 21st, 2024
+ */
+
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/about";
@@ -10,7 +17,9 @@ const MainRouter = () => {
   return (
     <div>
       <BrowserRouter>
+        {/* Include Layout */}
         <Layout />
+        {/* All Page Routes */}
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/about" element={<About />}></Route>
