@@ -1,19 +1,11 @@
-//import { ThemeProvider } from '@material-ui/styles';
-import MainRouter from '../MainRouter';
-//import Contact from './contact'
-//import theme from '../theme';
-//import { hot } from 'react-hot-loader'
-
-
+import MainRouter from "../MainRouter";
 
 function App() {
-
   return (
     <>
-      <MainRouter>
-      </MainRouter>
+      <MainRouter></MainRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

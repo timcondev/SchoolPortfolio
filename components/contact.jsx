@@ -29,6 +29,7 @@ export default function Contact() {
           Message:
           <textarea />
         </label>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );

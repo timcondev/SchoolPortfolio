@@ -1,4 +1,4 @@
-export default function Porject() {
+export default function Project() {
   return (
     <>
       <p>My Projects</p>
@@ -8,7 +8,7 @@ export default function Porject() {
           Allows users to upload any two jerseys then have friends vote on their
           favorite! SaaS upgrades using Stripe.
         </p>
-        <img src="public/jerseyduel.png" width={400} />
+        <img src="/jerseyduel.png" width={400} />
       </div>
       <div>
         <h3>Brainiac</h3>
@@ -16,7 +16,7 @@ export default function Porject() {
           AI Enhanced notes. Create AI assist notes, then have it create a
           thumbnail to help quickly locate it!
         </p>
-        <img src="public/brainiac.png" width={400} />
+        <img src="/brainiac.png" width={400} />
       </div>
       <div>
         <h3>Admin Dashboard</h3>
@@ -24,7 +24,7 @@ export default function Porject() {
           An Admin Dashboard CRUD app that allows you to create, read, update
           and delete both users and products in a dashboard.
         </p>
-        <img src="public/dashboard.png" width={400} />
+        <img src="/dashboard.png" width={400} />
       </div>
     </>
   );
