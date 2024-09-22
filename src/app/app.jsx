@@ -9,7 +9,7 @@ import { createRoot } from "react-dom/client";
 
 import "./app.css";
 import Router from "./router";
-import Layout from "./Layout";
+import Layout from "./layout";
 import { BrowserRouter } from "react-router-dom";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
