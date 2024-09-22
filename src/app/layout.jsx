@@ -5,11 +5,11 @@ Tim Conway
 September 21st, 2024
  */
 
-import NavBar from "./components/navbar";
+import NavBar from "../components/navbar";
+
 export default function Layout() {
   return (
     <>
-      {/* Include NavBar in all layouts */}
       <NavBar />
     </>
   );

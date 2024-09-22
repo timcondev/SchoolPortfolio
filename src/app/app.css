@@ -4,14 +4,17 @@ Tim Conway
 301495941
 September 21st, 2024
  */
+* {
+  flex: row;
+  justify-content: center;
+  align-items: center;
+}
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1a1f2b;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -20,7 +23,7 @@ September 21st, 2024
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #b4c2dc;
   text-decoration: inherit;
 }
 
@@ -47,7 +50,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ff4d4d;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -61,23 +64,41 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-/* NavBar Specific */
-.NavBar {
+.content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 20%;
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+  color: #ffffff;
+}
+
+.NavBarTitle {
+  text-align: center;
+  color: #ffffff;
+}
+
+.form div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 0 40%;
+  text-align: none;
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: #ffffff;
 }

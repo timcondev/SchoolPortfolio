@@ -7,9 +7,10 @@ September 21st, 2024
 
 export default function About() {
   return (
-    <>
-      <img src="public/profile.jpg" width={150} height={150}></img>
-      <p>
+    <div className="content">
+      <h1>Tim Conway</h1>
+      <img src="/profile.jpg" width={250}></img>
+      <h4>
         Since graduating as a Computer Programmer Analyst, I have worked in the
         tech field for the last 18 years. While my day to day job was not
         coding, throughout the years I have spent a considerable amount of my
@@ -28,10 +29,10 @@ export default function About() {
         as a software developer. When not coding, I enjoy playing video games,
         reading, and spending time with my family. A good day usually includes a
         RPG, a book by Brandon Sanderson or family board game night.
-      </p>
-      <p>
-        <a href="public/TimWConway.pdf">My Resume</a>
-      </p>
-    </>
+      </h4>
+      <h3>
+        <a href="/TimWConway.pdf">My Resume</a>
+      </h3>
+    </div>
   );
 }
